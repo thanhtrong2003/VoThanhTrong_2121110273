@@ -1,0 +1,22 @@
+D:\vothanhtrong2121110273_buoi1\vothanhtrong2121110273_buoi1\bin\Debug\net6.0-windows\vothanhtrong2121110273.exe
+D:\vothanhtrong2121110273_buoi1\vothanhtrong2121110273_buoi1\bin\Debug\net6.0-windows\vothanhtrong2121110273.deps.json
+D:\vothanhtrong2121110273_buoi1\vothanhtrong2121110273_buoi1\bin\Debug\net6.0-windows\vothanhtrong2121110273.runtimeconfig.json
+D:\vothanhtrong2121110273_buoi1\vothanhtrong2121110273_buoi1\bin\Debug\net6.0-windows\vothanhtrong2121110273.dll
+D:\vothanhtrong2121110273_buoi1\vothanhtrong2121110273_buoi1\bin\Debug\net6.0-windows\vothanhtrong2121110273.pdb
+D:\vothanhtrong2121110273_buoi1\vothanhtrong2121110273_buoi1\obj\Debug\net6.0-windows\vothanhtrong2121110273.csproj.AssemblyReference.cache
+D:\vothanhtrong2121110273_buoi1\vothanhtrong2121110273_buoi1\obj\Debug\net6.0-windows\vothanhtrong2121110273_buoi1.Form1.resources
+D:\vothanhtrong2121110273_buoi1\vothanhtrong2121110273_buoi1\obj\Debug\net6.0-windows\vothanhtrong2121110273.Menu.resources
+D:\vothanhtrong2121110273_buoi1\vothanhtrong2121110273_buoi1\obj\Debug\net6.0-windows\vothanhtrong2121110273.csproj.GenerateResource.cache
+D:\vothanhtrong2121110273_buoi1\vothanhtrong2121110273_buoi1\obj\Debug\net6.0-windows\vothanhtrong2121110273.GeneratedMSBuildEditorConfig.editorconfig
+D:\vothanhtrong2121110273_buoi1\vothanhtrong2121110273_buoi1\obj\Debug\net6.0-windows\vothanhtrong2121110273.AssemblyInfoInputs.cache
+D:\vothanhtrong2121110273_buoi1\vothanhtrong2121110273_buoi1\obj\Debug\net6.0-windows\vothanhtrong2121110273.AssemblyInfo.cs
+D:\vothanhtrong2121110273_buoi1\vothanhtrong2121110273_buoi1\obj\Debug\net6.0-windows\vothanhtrong2121110273.csproj.CoreCompileInputs.cache
+D:\vothanhtrong2121110273_buoi1\vothanhtrong2121110273_buoi1\obj\Debug\net6.0-windows\vothanhtrong2121110273.dll
+D:\vothanhtrong2121110273_buoi1\vothanhtrong2121110273_buoi1\obj\Debug\net6.0-windows\refint\vothanhtrong2121110273.dll
+D:\vothanhtrong2121110273_buoi1\vothanhtrong2121110273_buoi1\obj\Debug\net6.0-windows\vothanhtrong2121110273.pdb
+D:\vothanhtrong2121110273_buoi1\vothanhtrong2121110273_buoi1\obj\Debug\net6.0-windows\vothanhtrong2121110273.genruntimeconfig.cache
+D:\vothanhtrong2121110273_buoi1\vothanhtrong2121110273_buoi1\obj\Debug\net6.0-windows\ref\vothanhtrong2121110273.dll
+D:\vothanhtrong2121110273_buoi1\vothanhtrong2121110273_buoi1\obj\Debug\net6.0-windows\vothanhtrong2121110273.Bài2.resources
+D:\vothanhtrong2121110273_buoi1\vothanhtrong2121110273_buoi1\obj\Debug\net6.0-windows\vothanhtrong2121110273.Form2.resources
+D:\vothanhtrong2121110273_buoi1\vothanhtrong2121110273_buoi1\obj\Debug\net6.0-windows\vothanhtrong2121110273_buoi1.Form3.resources
+D:\vothanhtrong2121110273_buoi1\vothanhtrong2121110273_buoi1\obj\Debug\net6.0-windows\vothanhtrong2121110273_buoi1.Menu.resources
