@@ -28,113 +28,157 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            button7 = new Button();
-            button8 = new Button();
+            txtTotal = new TextBox();
+            btn1 = new Button();
+            btn2 = new Button();
+            btn3 = new Button();
+            btn4 = new Button();
+            btn5 = new Button();
+            btnClear = new Button();
+            btnChia = new Button();
+            btnNhan = new Button();
+            btnTru = new Button();
+            btnCong = new Button();
+            btnBang = new Button();
             SuspendLayout();
             // 
-            // textBox1
+            // txtTotal
             // 
-            textBox1.Location = new Point(178, 21);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(349, 81);
-            textBox1.TabIndex = 0;
+            txtTotal.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point);
+            txtTotal.Location = new Point(139, 30);
+            txtTotal.Multiline = true;
+            txtTotal.Name = "txtTotal";
+            txtTotal.Size = new Size(442, 86);
+            txtTotal.TabIndex = 0;
+            txtTotal.TextChanged += textBox1_TextChanged;
             // 
-            // button1
+            // btn1
             // 
-            button1.Location = new Point(178, 123);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 67);
-            button1.TabIndex = 1;
-            button1.Text = "0\r\n";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            btn1.Location = new Point(139, 122);
+            btn1.Name = "btn1";
+            btn1.Size = new Size(76, 58);
+            btn1.TabIndex = 1;
+            btn1.Text = "1";
+            btn1.UseVisualStyleBackColor = true;
+            btn1.Click += btn1_Click;
             // 
-            // button2
+            // btn2
             // 
-            button2.Location = new Point(269, 123);
-            button2.Name = "button2";
-            button2.Size = new Size(75, 67);
-            button2.TabIndex = 2;
-            button2.Text = "1";
-            button2.UseVisualStyleBackColor = true;
+            btn2.Location = new Point(221, 122);
+            btn2.Name = "btn2";
+            btn2.Size = new Size(76, 58);
+            btn2.TabIndex = 2;
+            btn2.Text = "2";
+            btn2.UseVisualStyleBackColor = true;
+            btn2.Click += btn2_Click;
             // 
-            // button3
+            // btn3
             // 
-            button3.Location = new Point(361, 123);
-            button3.Name = "button3";
-            button3.Size = new Size(75, 67);
-            button3.TabIndex = 3;
-            button3.Text = "2";
-            button3.UseVisualStyleBackColor = true;
+            btn3.Location = new Point(318, 122);
+            btn3.Name = "btn3";
+            btn3.Size = new Size(76, 58);
+            btn3.TabIndex = 3;
+            btn3.Text = "3";
+            btn3.UseVisualStyleBackColor = true;
+            btn3.Click += btn3_Click;
             // 
-            // button4
+            // btn4
             // 
-            button4.Location = new Point(452, 123);
-            button4.Name = "button4";
-            button4.Size = new Size(75, 67);
-            button4.TabIndex = 4;
-            button4.Text = "3";
-            button4.UseVisualStyleBackColor = true;
+            btn4.Location = new Point(413, 122);
+            btn4.Name = "btn4";
+            btn4.Size = new Size(76, 58);
+            btn4.TabIndex = 4;
+            btn4.Text = "4";
+            btn4.UseVisualStyleBackColor = true;
+            btn4.Click += btn4_Click;
             // 
-            // button5
+            // btn5
             // 
-            button5.Location = new Point(178, 205);
-            button5.Name = "button5";
-            button5.Size = new Size(75, 67);
-            button5.TabIndex = 5;
-            button5.Text = "+";
-            button5.UseVisualStyleBackColor = true;
+            btn5.Location = new Point(505, 122);
+            btn5.Name = "btn5";
+            btn5.Size = new Size(76, 58);
+            btn5.TabIndex = 5;
+            btn5.Text = "5";
+            btn5.UseVisualStyleBackColor = true;
+            btn5.Click += btn5_Click;
             // 
-            // button6
+            // btnClear
             // 
-            button6.Location = new Point(269, 205);
-            button6.Name = "button6";
-            button6.Size = new Size(75, 67);
-            button6.TabIndex = 6;
-            button6.Text = "*";
-            button6.UseVisualStyleBackColor = true;
-            button6.Click += button6_Click;
+            btnClear.Location = new Point(505, 192);
+            btnClear.Name = "btnClear";
+            btnClear.Size = new Size(76, 58);
+            btnClear.TabIndex = 10;
+            btnClear.Text = "Clear";
+            btnClear.UseVisualStyleBackColor = true;
+            btnClear.Click += btnClear_Click;
             // 
-            // button7
+            // btnChia
             // 
-            button7.Location = new Point(361, 205);
-            button7.Name = "button7";
-            button7.Size = new Size(75, 67);
-            button7.TabIndex = 7;
-            button7.Text = ".";
-            button7.UseVisualStyleBackColor = true;
+            btnChia.Location = new Point(413, 192);
+            btnChia.Name = "btnChia";
+            btnChia.Size = new Size(76, 58);
+            btnChia.TabIndex = 9;
+            btnChia.Text = "/";
+            btnChia.UseVisualStyleBackColor = true;
+            btnChia.Click += btnChia_Click;
             // 
-            // button8
+            // btnNhan
             // 
-            button8.Location = new Point(452, 205);
-            button8.Name = "button8";
-            button8.Size = new Size(75, 67);
-            button8.TabIndex = 8;
-            button8.Text = "=";
-            button8.UseVisualStyleBackColor = true;
+            btnNhan.Location = new Point(318, 192);
+            btnNhan.Name = "btnNhan";
+            btnNhan.Size = new Size(76, 58);
+            btnNhan.TabIndex = 8;
+            btnNhan.Text = "*";
+            btnNhan.UseVisualStyleBackColor = true;
+            btnNhan.Click += btnNhan_Click;
+            // 
+            // btnTru
+            // 
+            btnTru.Location = new Point(221, 192);
+            btnTru.Name = "btnTru";
+            btnTru.Size = new Size(76, 58);
+            btnTru.TabIndex = 7;
+            btnTru.Text = "-";
+            btnTru.UseVisualStyleBackColor = true;
+            btnTru.Click += btnTru_Click;
+            // 
+            // btnCong
+            // 
+            btnCong.Location = new Point(139, 192);
+            btnCong.Name = "btnCong";
+            btnCong.Size = new Size(76, 58);
+            btnCong.TabIndex = 6;
+            btnCong.Text = "+";
+            btnCong.UseVisualStyleBackColor = true;
+            btnCong.Click += btnCong_Click;
+            // 
+            // btnBang
+            // 
+            btnBang.Location = new Point(136, 270);
+            btnBang.Name = "btnBang";
+            btnBang.Size = new Size(445, 58);
+            btnBang.TabIndex = 11;
+            btnBang.Text = "=";
+            btnBang.UseVisualStyleBackColor = true;
+            btnBang.Click += btnBang_Click;
             // 
             // Form10
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(709, 450);
-            Controls.Add(button8);
-            Controls.Add(button7);
-            Controls.Add(button6);
-            Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(textBox1);
+            ClientSize = new Size(714, 443);
+            Controls.Add(btnBang);
+            Controls.Add(btnClear);
+            Controls.Add(btnChia);
+            Controls.Add(btnNhan);
+            Controls.Add(btnTru);
+            Controls.Add(btnCong);
+            Controls.Add(btn5);
+            Controls.Add(btn4);
+            Controls.Add(btn3);
+            Controls.Add(btn2);
+            Controls.Add(btn1);
+            Controls.Add(txtTotal);
             Name = "Form10";
             Text = "Form10";
             ResumeLayout(false);
@@ -143,14 +187,17 @@
 
         #endregion
 
-        private TextBox textBox1;
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
-        private Button button6;
-        private Button button7;
-        private Button button8;
+        private TextBox txtTotal;
+        private Button btn1;
+        private Button btn2;
+        private Button btn3;
+        private Button btn4;
+        private Button btn5;
+        private Button btnClear;
+        private Button btnChia;
+        private Button btnNhan;
+        private Button btnTru;
+        private Button btnCong;
+        private Button btnBang;
     }
 }

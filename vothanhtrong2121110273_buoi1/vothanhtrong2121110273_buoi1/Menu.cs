@@ -48,5 +48,26 @@ namespace vothanhtrong2121110273_buoi1
             Form10 objForm10 = new Form10();
             objForm10.ShowDialog();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Form11 objForm11 = new Form11();
+            objForm11.ShowDialog();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Form12 objForm12 = new Form12();
+            objForm12.ShowDialog();
+        }
+
+    
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Form13 objForm13 = new Form13();
+            objForm13.ShowDialog();
+        }
+
     }
 }

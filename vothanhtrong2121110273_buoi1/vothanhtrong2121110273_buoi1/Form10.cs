@@ -7,55 +7,106 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace vothanhtrong2121110273_buoi1
 {
     public partial class Form10 : Form
     {
-        decimal workingMemory = 0;
-        string opr = "";
         public Form10()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            textBox1.Text += button1.Text;
-        }
-        private void button2_Click(object sender, EventArgs e)
-        {
-            textBox1.Text += button2.Text;
-        }
-        private void button3_Click(object sender, EventArgs e)
-        {
-            textBox1.Text += button3.Text;
-        }
-        private void button4_Click(object sender, EventArgs e)
-        {
-            textBox1.Text += button4.Text;
-        }
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-            decimal secondValue = decimal.Parse(textBox1.Text);
-            if (opr == "+")
-                textBox1.Text = (workingMemory + secondValue).ToString();
-            if (opr == "*")
-                textBox1.Text = (workingMemory * secondValue).ToString();
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            opr = button5.Text;
-            workingMemory = decimal.Parse(textBox1.Text);
-            textBox1.Clear();
-        }
-
-        private void button6_Click(object sender, EventArgs e)
+        string Total;
+        int num1;
+        int num2;
+        string option;
+        int result;
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn1_Click(object sender, EventArgs e)
+        {
+            txtTotal.Text = txtTotal.Text + "1";
+        }
+
+        private void btn2_Click(object sender, EventArgs e)
+        {
+            txtTotal.Text = txtTotal.Text + "2";
+        }
+
+        private void btn3_Click(object sender, EventArgs e)
+        {
+            txtTotal.Text = txtTotal.Text + "3";
+        }
+
+        private void btn4_Click(object sender, EventArgs e)
+        {
+            txtTotal.Text = txtTotal.Text + "4";
+        }
+
+        private void btn5_Click(object sender, EventArgs e)
+        {
+            txtTotal.Text = txtTotal.Text + "5";
+        }
+
+        private void btnCong_Click(object sender, EventArgs e)
+        {
+            option = "+";
+            num1 = int.Parse(txtTotal.Text);
+
+            txtTotal.Clear();
+        }
+
+        private void btnTru_Click(object sender, EventArgs e)
+        {
+            option = "-";
+            num1 = int.Parse(txtTotal.Text);
+
+            txtTotal.Clear();
+        }
+
+        private void btnNhan_Click(object sender, EventArgs e)
+        {
+            option = "*";
+            num1 = int.Parse(txtTotal.Text);
+
+            txtTotal.Clear();
+        }
+
+        private void btnChia_Click(object sender, EventArgs e)
+        {
+            option = "/";
+            num1 = int.Parse(txtTotal.Text);
+
+            txtTotal.Clear();
+        }
+
+        private void btnBang_Click(object sender, EventArgs e)
+        {
+            num2 = int.Parse(txtTotal.Text);
+            if (option.Equals("+"))
+                result = num1 + num2;
+            if (option.Equals("-"))
+                result = num1 - num2;
+            if (option.Equals("*"))
+                result = num1 * num2;
+            if (option.Equals("/"))
+                result = num1 / num2;
+
+            txtTotal.Text = result + "";
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            txtTotal.Clear();
+
+            result = (0);
+
+            num1 = (0);
+            num2 = (0);
         }
     }
 }

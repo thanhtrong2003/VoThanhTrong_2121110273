@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VoThanhTrong_2121110273\\vothanhtrong2121110273_buoi1\\vothanhtrong2121110273_buoi1\\vothanhtrong2121110273_buoi1.csproj": {}
+    "D:\\Vothanhtrong_2121110273_buoi4\\vothanhtrong2121110273_buoi1\\vothanhtrong2121110273_buoi1\\vothanhtrong2121110273_buoi1.csproj": {}
   },
   "projects": {
-    "D:\\VoThanhTrong_2121110273\\vothanhtrong2121110273_buoi1\\vothanhtrong2121110273_buoi1\\vothanhtrong2121110273_buoi1.csproj": {
+    "D:\\Vothanhtrong_2121110273_buoi4\\vothanhtrong2121110273_buoi1\\vothanhtrong2121110273_buoi1\\vothanhtrong2121110273_buoi1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VoThanhTrong_2121110273\\vothanhtrong2121110273_buoi1\\vothanhtrong2121110273_buoi1\\vothanhtrong2121110273_buoi1.csproj",
+        "projectUniqueName": "D:\\Vothanhtrong_2121110273_buoi4\\vothanhtrong2121110273_buoi1\\vothanhtrong2121110273_buoi1\\vothanhtrong2121110273_buoi1.csproj",
         "projectName": "vothanhtrong2121110273_buoi1",
-        "projectPath": "D:\\VoThanhTrong_2121110273\\vothanhtrong2121110273_buoi1\\vothanhtrong2121110273_buoi1\\vothanhtrong2121110273_buoi1.csproj",
+        "projectPath": "D:\\Vothanhtrong_2121110273_buoi4\\vothanhtrong2121110273_buoi1\\vothanhtrong2121110273_buoi1\\vothanhtrong2121110273_buoi1.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\VoThanhTrong_2121110273\\vothanhtrong2121110273_buoi1\\vothanhtrong2121110273_buoi1\\obj\\",
+        "outputPath": "D:\\Vothanhtrong_2121110273_buoi4\\vothanhtrong2121110273_buoi1\\vothanhtrong2121110273_buoi1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
