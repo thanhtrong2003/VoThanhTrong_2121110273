@@ -61,7 +61,7 @@ namespace vothanhtrong2121110273_buoi1
             objForm12.ShowDialog();
         }
 
-    
+
 
         private void button8_Click(object sender, EventArgs e)
         {
@@ -69,5 +69,52 @@ namespace vothanhtrong2121110273_buoi1
             objForm13.ShowDialog();
         }
 
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Form14 objForm14 = new Form14();
+            objForm14.ShowDialog();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            Form15 objForm15 = new Form15();
+            objForm15.ShowDialog();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            Form16 objForm16 = new Form16();
+            objForm16.ShowDialog();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            Form19 objForm19 = new Form19();
+            objForm19.ShowDialog();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            Form17 objForm17 = new Form17();
+            objForm17.ShowDialog();
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            Form18 objForm18 = new Form18();
+            objForm18.ShowDialog();
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            Form20 objForm20 = new Form20();
+            objForm20.ShowDialog();
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            Form21 objForm21 = new Form21();
+            objForm21.ShowDialog();
+        }
     }
 }

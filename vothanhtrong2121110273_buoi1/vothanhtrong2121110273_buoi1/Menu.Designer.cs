@@ -36,13 +36,22 @@
             button6 = new Button();
             button7 = new Button();
             button8 = new Button();
+            button9 = new Button();
+            button10 = new Button();
+            button11 = new Button();
+            button12 = new Button();
+            button13 = new Button();
+            button14 = new Button();
+            button15 = new Button();
+            button16 = new Button();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(48, 24);
+            button1.Location = new Point(69, 40);
+            button1.Margin = new Padding(4, 5, 4, 5);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
+            button1.Size = new Size(107, 38);
             button1.TabIndex = 0;
             button1.Text = "Bài1\r\n";
             button1.UseVisualStyleBackColor = true;
@@ -50,9 +59,10 @@
             // 
             // button2
             // 
-            button2.Location = new Point(165, 24);
+            button2.Location = new Point(236, 40);
+            button2.Margin = new Padding(4, 5, 4, 5);
             button2.Name = "button2";
-            button2.Size = new Size(75, 23);
+            button2.Size = new Size(107, 38);
             button2.TabIndex = 1;
             button2.Text = "Bài2\r\n";
             button2.UseVisualStyleBackColor = true;
@@ -60,9 +70,10 @@
             // 
             // button3
             // 
-            button3.Location = new Point(275, 24);
+            button3.Location = new Point(393, 40);
+            button3.Margin = new Padding(4, 5, 4, 5);
             button3.Name = "button3";
-            button3.Size = new Size(75, 23);
+            button3.Size = new Size(107, 38);
             button3.TabIndex = 2;
             button3.Text = "Bài3\r\n";
             button3.UseVisualStyleBackColor = true;
@@ -70,9 +81,10 @@
             // 
             // button4
             // 
-            button4.Location = new Point(391, 24);
+            button4.Location = new Point(559, 40);
+            button4.Margin = new Padding(4, 5, 4, 5);
             button4.Name = "button4";
-            button4.Size = new Size(75, 23);
+            button4.Size = new Size(107, 38);
             button4.TabIndex = 3;
             button4.Text = "Bài9\r\n";
             button4.UseVisualStyleBackColor = true;
@@ -80,9 +92,10 @@
             // 
             // button5
             // 
-            button5.Location = new Point(48, 76);
+            button5.Location = new Point(69, 127);
+            button5.Margin = new Padding(4, 5, 4, 5);
             button5.Name = "button5";
-            button5.Size = new Size(75, 23);
+            button5.Size = new Size(107, 38);
             button5.TabIndex = 4;
             button5.Text = "Bài10\r\n";
             button5.UseVisualStyleBackColor = true;
@@ -90,9 +103,10 @@
             // 
             // button6
             // 
-            button6.Location = new Point(165, 76);
+            button6.Location = new Point(236, 127);
+            button6.Margin = new Padding(4, 5, 4, 5);
             button6.Name = "button6";
-            button6.Size = new Size(75, 23);
+            button6.Size = new Size(107, 38);
             button6.TabIndex = 5;
             button6.Text = "Bài11";
             button6.UseVisualStyleBackColor = true;
@@ -100,9 +114,10 @@
             // 
             // button7
             // 
-            button7.Location = new Point(275, 76);
+            button7.Location = new Point(393, 127);
+            button7.Margin = new Padding(4, 5, 4, 5);
             button7.Name = "button7";
-            button7.Size = new Size(75, 23);
+            button7.Size = new Size(107, 38);
             button7.TabIndex = 6;
             button7.Text = "Bài12";
             button7.UseVisualStyleBackColor = true;
@@ -110,19 +125,116 @@
             // 
             // button8
             // 
-            button8.Location = new Point(391, 76);
+            button8.Location = new Point(559, 127);
+            button8.Margin = new Padding(4, 5, 4, 5);
             button8.Name = "button8";
-            button8.Size = new Size(75, 23);
+            button8.Size = new Size(107, 38);
             button8.TabIndex = 7;
             button8.Text = "Bài13";
             button8.UseVisualStyleBackColor = true;
             button8.Click += button8_Click;
             // 
+            // button9
+            // 
+            button9.Location = new Point(69, 207);
+            button9.Margin = new Padding(4, 5, 4, 5);
+            button9.Name = "button9";
+            button9.Size = new Size(107, 38);
+            button9.TabIndex = 8;
+            button9.Text = "Bài14";
+            button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
+            // 
+            // button10
+            // 
+            button10.Location = new Point(236, 207);
+            button10.Margin = new Padding(4, 5, 4, 5);
+            button10.Name = "button10";
+            button10.Size = new Size(107, 38);
+            button10.TabIndex = 9;
+            button10.Text = "Bài15";
+            button10.UseVisualStyleBackColor = true;
+            button10.Click += button10_Click;
+            // 
+            // button11
+            // 
+            button11.Location = new Point(393, 207);
+            button11.Margin = new Padding(4, 5, 4, 5);
+            button11.Name = "button11";
+            button11.Size = new Size(107, 38);
+            button11.TabIndex = 10;
+            button11.Text = "Bài16";
+            button11.UseVisualStyleBackColor = true;
+            button11.Click += button11_Click;
+            // 
+            // button12
+            // 
+            button12.Location = new Point(236, 290);
+            button12.Margin = new Padding(4, 5, 4, 5);
+            button12.Name = "button12";
+            button12.Size = new Size(107, 38);
+            button12.TabIndex = 11;
+            button12.Text = "Bài19";
+            button12.UseVisualStyleBackColor = true;
+            button12.Click += button12_Click;
+            // 
+            // button13
+            // 
+            button13.Location = new Point(559, 207);
+            button13.Margin = new Padding(4, 5, 4, 5);
+            button13.Name = "button13";
+            button13.Size = new Size(107, 38);
+            button13.TabIndex = 12;
+            button13.Text = "Bài17";
+            button13.UseVisualStyleBackColor = true;
+            button13.Click += button13_Click;
+            // 
+            // button14
+            // 
+            button14.Location = new Point(69, 290);
+            button14.Margin = new Padding(4, 5, 4, 5);
+            button14.Name = "button14";
+            button14.Size = new Size(107, 38);
+            button14.TabIndex = 13;
+            button14.Text = "Bài18";
+            button14.UseVisualStyleBackColor = true;
+            button14.Click += button14_Click;
+            // 
+            // button15
+            // 
+            button15.Location = new Point(393, 290);
+            button15.Margin = new Padding(4, 5, 4, 5);
+            button15.Name = "button15";
+            button15.Size = new Size(107, 38);
+            button15.TabIndex = 14;
+            button15.Text = "Bài20";
+            button15.UseVisualStyleBackColor = true;
+            button15.Click += button15_Click;
+            // 
+            // button16
+            // 
+            button16.Location = new Point(559, 290);
+            button16.Margin = new Padding(4, 5, 4, 5);
+            button16.Name = "button16";
+            button16.Size = new Size(107, 38);
+            button16.TabIndex = 15;
+            button16.Text = "Bài21";
+            button16.UseVisualStyleBackColor = true;
+            button16.Click += button16_Click;
+            // 
             // Menu
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1143, 750);
+            Controls.Add(button16);
+            Controls.Add(button15);
+            Controls.Add(button14);
+            Controls.Add(button13);
+            Controls.Add(button12);
+            Controls.Add(button11);
+            Controls.Add(button10);
+            Controls.Add(button9);
             Controls.Add(button8);
             Controls.Add(button7);
             Controls.Add(button6);
@@ -131,9 +243,9 @@
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "Menu";
             Text = "Menu";
-           
             ResumeLayout(false);
         }
 
@@ -147,5 +259,13 @@
         private Button button6;
         private Button button7;
         private Button button8;
+        private Button button9;
+        private Button button10;
+        private Button button11;
+        private Button button12;
+        private Button button13;
+        private Button button14;
+        private Button button15;
+        private Button button16;
     }
 }
