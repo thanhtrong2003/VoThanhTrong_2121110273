@@ -29,10 +29,11 @@
         private void InitializeComponent()
         {
             dgvEmployee = new DataGridView();
-            Column1 = new DataGridViewTextBoxColumn();
+            ID = new DataGridViewTextBoxColumn();
             Column2 = new DataGridViewTextBoxColumn();
             Column3 = new DataGridViewTextBoxColumn();
             Column4 = new DataGridViewTextBoxColumn();
+            imageCol = new DataGridViewImageColumn();
             label1 = new Label();
             tbId = new TextBox();
             ckGender = new CheckBox();
@@ -43,27 +44,32 @@
             label3 = new Label();
             tbName = new TextBox();
             tbAge = new TextBox();
+            btEdit = new Button();
+            pbImage = new PictureBox();
+            btFile = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvEmployee).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pbImage).BeginInit();
             SuspendLayout();
             // 
             // dgvEmployee
             // 
             dgvEmployee.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvEmployee.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4 });
+            dgvEmployee.Columns.AddRange(new DataGridViewColumn[] { ID, Column2, Column3, Column4, imageCol });
             dgvEmployee.Location = new Point(58, 12);
             dgvEmployee.Name = "dgvEmployee";
             dgvEmployee.RowHeadersWidth = 62;
             dgvEmployee.RowTemplate.Height = 33;
-            dgvEmployee.Size = new Size(664, 168);
+            dgvEmployee.Size = new Size(797, 217);
             dgvEmployee.TabIndex = 0;
+            dgvEmployee.CellClick += dgvEmployee_CellClick;
             dgvEmployee.CellContentClick += dgvEmployee_CellContentClick;
             // 
-            // Column1
+            // ID
             // 
-            Column1.HeaderText = "Mã nhân viên";
-            Column1.MinimumWidth = 8;
-            Column1.Name = "Column1";
-            Column1.Width = 150;
+            ID.HeaderText = "Mã nhân viên";
+            ID.MinimumWidth = 8;
+            ID.Name = "ID";
+            ID.Width = 150;
             // 
             // Column2
             // 
@@ -85,6 +91,17 @@
             Column4.MinimumWidth = 8;
             Column4.Name = "Column4";
             Column4.Width = 150;
+            // 
+            // imageCol
+            // 
+            imageCol.AutoSizeMode = DataGridViewAutoSizeColumnMode.None;
+            imageCol.HeaderText = "Image";
+            imageCol.ImageLayout = DataGridViewImageCellLayout.Zoom;
+            imageCol.MinimumWidth = 8;
+            imageCol.Name = "imageCol";
+            imageCol.Resizable = DataGridViewTriState.True;
+            imageCol.SortMode = DataGridViewColumnSortMode.Automatic;
+            imageCol.Width = 150;
             // 
             // label1
             // 
@@ -134,7 +151,7 @@
             // 
             // btClose
             // 
-            btClose.Location = new Point(587, 486);
+            btClose.Location = new Point(715, 486);
             btClose.Name = "btClose";
             btClose.Size = new Size(112, 34);
             btClose.TabIndex = 6;
@@ -164,7 +181,7 @@
             // 
             tbName.Location = new Point(156, 299);
             tbName.Name = "tbName";
-            tbName.Size = new Size(375, 31);
+            tbName.Size = new Size(264, 31);
             tbName.TabIndex = 9;
             // 
             // tbAge
@@ -174,11 +191,42 @@
             tbAge.Size = new Size(213, 31);
             tbAge.TabIndex = 10;
             // 
+            // btEdit
+            // 
+            btEdit.Location = new Point(587, 486);
+            btEdit.Name = "btEdit";
+            btEdit.Size = new Size(112, 34);
+            btEdit.TabIndex = 11;
+            btEdit.Text = "Sửa";
+            btEdit.UseVisualStyleBackColor = true;
+            btEdit.Click += btEdit_Click;
+            // 
+            // pbImage
+            // 
+            pbImage.Location = new Point(519, 235);
+            pbImage.Name = "pbImage";
+            pbImage.Size = new Size(105, 141);
+            pbImage.TabIndex = 12;
+            pbImage.TabStop = false;
+            // 
+            // btFile
+            // 
+            btFile.Location = new Point(641, 345);
+            btFile.Name = "btFile";
+            btFile.Size = new Size(112, 34);
+            btFile.TabIndex = 13;
+            btFile.Text = "Thêm ảnh";
+            btFile.UseVisualStyleBackColor = true;
+            btFile.Click += btFile_Click;
+            // 
             // Form20
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(950, 613);
+            Controls.Add(btFile);
+            Controls.Add(pbImage);
+            Controls.Add(btEdit);
             Controls.Add(tbAge);
             Controls.Add(tbName);
             Controls.Add(label3);
@@ -193,6 +241,7 @@
             Name = "Form20";
             Text = "Form20";
             ((System.ComponentModel.ISupportInitialize)dgvEmployee).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pbImage).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -200,10 +249,6 @@
         #endregion
 
         private DataGridView dgvEmployee;
-        private DataGridViewTextBoxColumn Column1;
-        private DataGridViewTextBoxColumn Column2;
-        private DataGridViewTextBoxColumn Column3;
-        private DataGridViewTextBoxColumn Column4;
         private Label label1;
         private TextBox tbId;
         private CheckBox ckGender;
@@ -214,5 +259,13 @@
         private Label label3;
         private TextBox tbName;
         private TextBox tbAge;
+        private Button btEdit;
+        private PictureBox pbImage;
+        private Button btFile;
+        private DataGridViewTextBoxColumn ID;
+        private DataGridViewTextBoxColumn Column2;
+        private DataGridViewTextBoxColumn Column3;
+        private DataGridViewTextBoxColumn Column4;
+        private DataGridViewImageColumn imageCol;
     }
 }

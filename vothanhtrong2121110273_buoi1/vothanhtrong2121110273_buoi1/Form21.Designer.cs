@@ -45,8 +45,12 @@
             tbName = new TextBox();
             tbAge = new TextBox();
             employeeBindingSource = new BindingSource(components);
+            btEdit = new Button();
+            pbImage = new PictureBox();
+            btFile = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvEmployee).BeginInit();
             ((System.ComponentModel.ISupportInitialize)employeeBindingSource).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pbImage).BeginInit();
             SuspendLayout();
             // 
             // dgvEmployee
@@ -159,7 +163,7 @@
             // 
             // btClose
             // 
-            btClose.Location = new Point(640, 381);
+            btClose.Location = new Point(760, 381);
             btClose.Name = "btClose";
             btClose.Size = new Size(112, 34);
             btClose.TabIndex = 8;
@@ -171,7 +175,7 @@
             // 
             tbName.Location = new Point(176, 258);
             tbName.Name = "tbName";
-            tbName.Size = new Size(340, 31);
+            tbName.Size = new Size(246, 31);
             tbName.TabIndex = 9;
             // 
             // tbAge
@@ -185,11 +189,42 @@
             // 
             employeeBindingSource.DataSource = typeof(Employee);
             // 
+            // btEdit
+            // 
+            btEdit.Location = new Point(630, 381);
+            btEdit.Name = "btEdit";
+            btEdit.Size = new Size(112, 34);
+            btEdit.TabIndex = 11;
+            btEdit.Text = "Sửa";
+            btEdit.UseVisualStyleBackColor = true;
+            btEdit.Click += btEdit_Click;
+            // 
+            // pbImage
+            // 
+            pbImage.Location = new Point(533, 220);
+            pbImage.Name = "pbImage";
+            pbImage.Size = new Size(97, 110);
+            pbImage.TabIndex = 12;
+            pbImage.TabStop = false;
+            // 
+            // btFile
+            // 
+            btFile.Location = new Point(650, 299);
+            btFile.Name = "btFile";
+            btFile.Size = new Size(112, 34);
+            btFile.TabIndex = 13;
+            btFile.Text = "Chọn ảnh";
+            btFile.UseVisualStyleBackColor = true;
+            btFile.Click += btFile_Click;
+            // 
             // Form21
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1025, 496);
+            Controls.Add(btFile);
+            Controls.Add(pbImage);
+            Controls.Add(btEdit);
             Controls.Add(tbAge);
             Controls.Add(tbName);
             Controls.Add(btClose);
@@ -206,6 +241,7 @@
             Load += Form21_Load;
             ((System.ComponentModel.ISupportInitialize)dgvEmployee).EndInit();
             ((System.ComponentModel.ISupportInitialize)employeeBindingSource).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pbImage).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -228,5 +264,8 @@
         private DataGridViewTextBoxColumn Column3;
         private DataGridViewTextBoxColumn Column4;
         private BindingSource employeeBindingSource;
+        private Button btEdit;
+        private PictureBox pbImage;
+        private Button btFile;
     }
 }

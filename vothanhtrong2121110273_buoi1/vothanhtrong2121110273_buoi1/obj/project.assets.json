@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Vothanhtrong_2121110273_winform_buoi2\\vothanhtrong2121110273_buoi1\\vothanhtrong2121110273_buoi1\\vothanhtrong2121110273_buoi1.csproj",
+      "projectUniqueName": "D:\\Vothanhtrong_2121110273_buoi5_C#\\vothanhtrong2121110273_buoi1\\vothanhtrong2121110273_buoi1\\vothanhtrong2121110273_buoi1.csproj",
       "projectName": "vothanhtrong2121110273_buoi1",
-      "projectPath": "D:\\Vothanhtrong_2121110273_winform_buoi2\\vothanhtrong2121110273_buoi1\\vothanhtrong2121110273_buoi1\\vothanhtrong2121110273_buoi1.csproj",
+      "projectPath": "D:\\Vothanhtrong_2121110273_buoi5_C#\\vothanhtrong2121110273_buoi1\\vothanhtrong2121110273_buoi1\\vothanhtrong2121110273_buoi1.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "D:\\Vothanhtrong_2121110273_winform_buoi2\\vothanhtrong2121110273_buoi1\\vothanhtrong2121110273_buoi1\\obj\\",
+      "outputPath": "D:\\Vothanhtrong_2121110273_buoi5_C#\\vothanhtrong2121110273_buoi1\\vothanhtrong2121110273_buoi1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",

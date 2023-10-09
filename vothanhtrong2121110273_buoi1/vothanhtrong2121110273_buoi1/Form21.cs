@@ -87,5 +87,33 @@ namespace vothanhtrong2121110273_buoi1
         {
             Close();
         }
+
+        private void btEdit_Click(object sender, EventArgs e)
+        {
+            if (dgvEmployee.SelectedRows.Count > 0)
+            {
+                DataGridViewRow selectedRow = dgvEmployee.SelectedRows[0];
+
+                selectedRow.Cells[0].Value = tbId.Text;
+                selectedRow.Cells[1].Value = tbName.Text;
+                selectedRow.Cells[2].Value = tbAge.Text;
+                selectedRow.Cells[3].Value = ckGender.Checked;
+
+                // Optionally, if you want to refresh the DataGridView
+                dgvEmployee.Refresh();
+            }
+        }
+
+        private void btFile_Click(object sender, EventArgs e)
+        {
+            pbImage.SizeMode = PictureBoxSizeMode.StretchImage;
+            OpenFileDialog dlg = new OpenFileDialog();
+            dlg.Title = "Open Image";
+            dlg.Filter = "JPEG files (*.jpg) |*.jpg";
+            if (dlg.ShowDialog() == DialogResult.OK)
+            {
+                pbImage.ImageLocation = dlg.FileName;
+            }
+        }
     }
 }
