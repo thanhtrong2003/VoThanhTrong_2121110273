@@ -44,6 +44,9 @@
             button14 = new Button();
             button15 = new Button();
             button16 = new Button();
+            button17 = new Button();
+            button18 = new Button();
+            button19 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -222,11 +225,47 @@
             button16.UseVisualStyleBackColor = true;
             button16.Click += button16_Click;
             // 
+            // button17
+            // 
+            button17.Location = new Point(236, 368);
+            button17.Margin = new Padding(4, 5, 4, 5);
+            button17.Name = "button17";
+            button17.Size = new Size(107, 38);
+            button17.TabIndex = 16;
+            button17.Text = "Bài23";
+            button17.UseVisualStyleBackColor = true;
+            button17.Click += button17_Click;
+            // 
+            // button18
+            // 
+            button18.Location = new Point(393, 368);
+            button18.Margin = new Padding(4, 5, 4, 5);
+            button18.Name = "button18";
+            button18.Size = new Size(107, 38);
+            button18.TabIndex = 17;
+            button18.Text = "Bài24";
+            button18.UseVisualStyleBackColor = true;
+            button18.Click += button18_Click;
+            // 
+            // button19
+            // 
+            button19.Location = new Point(69, 444);
+            button19.Margin = new Padding(4, 5, 4, 5);
+            button19.Name = "button19";
+            button19.Size = new Size(107, 38);
+            button19.TabIndex = 18;
+            button19.Text = "Bài26";
+            button19.UseVisualStyleBackColor = true;
+            button19.Click += button19_Click;
+            // 
             // Menu
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1143, 750);
+            Controls.Add(button19);
+            Controls.Add(button18);
+            Controls.Add(button17);
             Controls.Add(button16);
             Controls.Add(button15);
             Controls.Add(button14);
@@ -267,5 +306,8 @@
         private Button button14;
         private Button button15;
         private Button button16;
+        private Button button17;
+        private Button button18;
+        private Button button19;
     }
 }
